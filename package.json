@@ -1,5 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "install:all": "yarn install && yarn lerna bootstrap",
+    "flow-typed:all": "yarn flow-mono create-symlinks .flowconfig && yarn flow-mono install-types --ignoreDeps=peer",
+    "flow": "yarn lerna exec flow --stream"
+  },
   "workspaces": [
     "packages/*"
   ],
