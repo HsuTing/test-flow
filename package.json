@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "flow-bin": "^0.114.0",
+    "flow-mono-cli": "^1.5.2",
+    "flow-typed": "^2.6.2",
+    "lerna": "^3.19.0"
+  }
+}

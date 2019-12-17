@@ -1,0 +1,27 @@
+# default
+*.swp
+*.log
+.DS_Store
+
+# node
+node_modules
+
+# babel
+lib
+
+# eslint
+.eslintcache
+
+# flow
+**/flow-typed/npm
+**/.flowconfig
+!./.flowconfig
+
+# jest
+coverage
+
+# relay
+__generated__
+
+# lerna-changelog
+.changelog
